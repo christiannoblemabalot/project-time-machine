@@ -4,7 +4,7 @@
 <style>
 body {
 background-color: black;
-margin: 15%;
+margin: 10%;
 font-family: san-serif;}
 h1 {
 text-align: center;
