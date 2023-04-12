@@ -15,8 +15,8 @@ color: white;}
 h2 {color: white;}
 p { color: white;}
 video { display: block;
-        margin: 30% auto;
-        width: 50%;
+        margin: 24% auto;
+        width: 40%;
         height: auto;}
 </style>
 </head>
