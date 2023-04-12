@@ -17,7 +17,7 @@ p { color: white;}
 video { display: block;
         margin: 30% auto;
         width: 50%;
-         height: auto;}
+        height: auto;}
 </style>
 </head>
 <body>
