@@ -1,5 +1,5 @@
 <html>
-<head><meta charset="utf-30">
+<head><meta charset="utf-60">
 <title>SAAN NGA BA NAGSIMULA ANG LAHAT?</title>
 <style>
 body {
