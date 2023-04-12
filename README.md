@@ -20,6 +20,6 @@ p { color: white;}
 <h1>PROJECT TIME MACHINE</h1>
 <h2>Para kay BLAKE NATHAN MABALOT</h2>
 <p>Haha! Sa wakas Blake anak natagpuan mo rin ako. Ginawa ko ang page na ito para sa iyo. Nandito lahat ng kuwento, mga larawan at videos natin simula noong magkakilala kami ng mama mo anak.</p>
-<a href="about.html">SUSUNOD NA PAHINA</a>
+<a href="Page2.html">SUSUNOD NA PAHINA</a>
 </body>
 </html>
