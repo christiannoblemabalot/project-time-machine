@@ -4,7 +4,7 @@
 <style>
 body {
 background-color: black;
-margin: 15%;
+margin: 5%;
 font-family: san-serif;}
 h1 {
 text-align: center;
@@ -16,7 +16,7 @@ h2 {color: white;}
 p { color: white;}
 video { display: block;
         margin: 24% auto;
-        width: 40%;
+        width: 70%;
         height: auto;}
 </style>
 </head>
