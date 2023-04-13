@@ -1,18 +1,17 @@
-<!DOCTYPE html>
 <html>
 <head>
 <title>SAAN NGA BA NAGSIMULA ANG LAHAT?</title>
 <style>
 body { background-color: black;
         font-family: san-serif;
-             margin: 15%;
+             margin: 100px;
               color: white; 
-          font-size: large }
+          font-size: 30px }
 h1 {
 text-align: center;
 video { display: block;
-        margin: 20% auto;
-        width: 80%;
+        margin: 50px auto;
+        width: 200px;
         height: auto;}
 </style>
 </head>
@@ -20,7 +19,7 @@ video { display: block;
 <h1>ANG SIMULA</h1>
 <h2>February 2018</h2>
 <p>Nagsimula ang kuwentong ito noong una kong makita ang mama mo. Una ko siyang nakita sa MSR Dialysis Center kung saan nagda-dialysis ang lola mommy mo. Dalawang beses sa isang linggong nagda-dialysis ang lola mommy mo at naka schedule siyang mag dialysis sa araw na iyon. Hindi ko matandaan yung eksaktong araw pero Pebrero iyon ng taong dalawang libo at labing walo. Ako ang nakatokang magbantay sa lola mommy mo nung araw na iyon. Nakita ko ang mama mo nung papasok na kami sa MSR.</p> 
-<video src="first meet.mp4" controls> Your browser does not support the video tag.</video>
+<video src="first_meet.mp4" controls> Your browser does not support the video tag.</video>
 <br>
 <a href="Page3.html">SUSUNOD NA PAHINA</a>
 </body>
