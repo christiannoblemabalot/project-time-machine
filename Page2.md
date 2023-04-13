@@ -10,7 +10,7 @@ body { background-color: black;
 h1 { text-align: center;}
 video { display: block;
         margin: 10px auto;
-        width: 50px;
+        width: 200px;
          height: auto;}
 </style>
 </head>
