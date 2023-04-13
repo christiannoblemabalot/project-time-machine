@@ -1,10 +1,10 @@
 <html>
-<head><meta charset="utf-60">
+<head>
 <title>SAAN NGA BA NAGSIMULA ANG LAHAT?</title>
 <style>
 body {
 background-color: black;
-margin: 5%;
+margin: 15%;
 font-family: san-serif;}
 h1 {
 text-align: center;
@@ -13,11 +13,11 @@ font-weight: normal;
 font-transform: uppercase;
 color: white;}
 h2 {color: white;}
-p { color: white;}
+p  {color: white;}
 video { display: block;
-        margin: 24% auto;
-        width: 70%;
-         height: auto;}
+        margin: 20% auto;
+        width: 80%;
+        height: auto;}
 </style>
 </head>
 <body>
