@@ -7,8 +7,7 @@ body { background-color: black;
              margin: 100px;
               color: white; 
           font-size: 30px }
-h1 {
-text-align: center;
+h1 { text-align: center;}
 video { display: block;
         margin: 50px auto;
         width: 50px;
