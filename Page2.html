@@ -1,19 +1,15 @@
+<!DOCTYPE html>
 <html>
 <head>
 <title>SAAN NGA BA NAGSIMULA ANG LAHAT?</title>
 <style>
-body {
-background-color: black;
-margin: 15%;
-font-family: san-serif;}
+body { background-color: black;
+        font-family: san-serif;
+             margin: 15%;
+              color: white; 
+          font-size: large }
 h1 {
 text-align: center;
-font-family: serif;
-font-weight: normal;
-font-transform: uppercase;
-color: white;}
-h2 {color: white;}
-p  {color: white;}
 video { display: block;
         margin: 20% auto;
         width: 80%;
