@@ -11,7 +11,7 @@ h1 { text-align: center;}
 video { display: block;
         margin: 10px auto;
         width: 600px;
-        height: auto;}
+         height: auto;}
 </style>
 </head>
 <body>
