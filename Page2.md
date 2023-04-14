@@ -30,7 +30,7 @@ img { display: block;
 <img src="firstvisit.jpg" alt="Image">
 <br>
 
-<h4><time datetime="2018-05-02">May 1st, 2018</time></h4>
+<h4><time datetime="2018-05-02">May 2nd, 2018</time></h4>
 <p>Heto yung larawan ng unang date namin ng mama mo sa Mang Inasal Magic Star mall. </p>
 <img src="firstdate1.jpg" alt="Image">
 <br>
