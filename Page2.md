@@ -12,6 +12,10 @@ video { display: block;
         margin: 10px auto;
          width: 800px;
          height: auto;}
+img { display: block;
+       margin: 0 Auto;
+         width: 800px;
+         height: auto;}
 </style>
 </head>
 <body>
@@ -19,6 +23,13 @@ video { display: block;
 <h2>February 2018</h2>
 <p>Nagsimula ang kuwentong ito noong una kong makita ang mama mo. Una ko siyang nakita sa MSR Dialysis Center kung saan nagda-dialysis ang lola mommy mo. Dalawang beses sa isang linggong nagda-dialysis ang lola mommy mo at naka schedule siyang mag dialysis sa araw na iyon. Hindi ko matandaan yung eksaktong araw pero Pebrero iyon ng taong dalawang libo at labing walo. Ako ang nakatokang magbantay sa lola mommy mo nung araw na iyon. Nakita ko ang mama mo nung papasok na kami sa MSR.</p> 
 <video src="first_meet.mp4" controls> Your browser does not support the video tag.</video>
+<p> Pagkatapos nun nagpakilala sa kanya ang lola mommy mo. Sa katunayan niyan ang lola mommy ang gumawa ng unang hakbang para makuha ang mesenger name ng mama mo. Tuwang-tuwa naman ako dahil gustung-gusto ko ang mama mo. Naging magka-chat kami ng mama mo. Lagi akong nagpupunta sa MSR kahit hindi pa naka-schedule magdialysis ang lola mommy mo. Hinihintay ko ang mama mo na lumabas galing sa trabaho para ihatid o kaya naman minsan kumakain muna kami bago sya umuwi.
+<br>
+<h3><time datetime="2018-05-02">May 1st, 2022</time></h3>
+Heto yung picture ng first date namin ng mama mo sa Mang Inasal Magic Star mall.
+<img src="firstdate1.jpg" alt="Image">
+<img src="firstdate2.jpg" alt="Image">
+
 <br>
 <a href="Page3.html">SUSUNOD NA PAHINA</a>
 </body>
