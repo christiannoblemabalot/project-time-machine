@@ -41,6 +41,10 @@ img { display: block;
 <img src="sagot.jpg" alt="Image">
 <p>Habang kumakain kami, may pinakita akong singsing sa kanya. Tapos tinanung ko sya kung pwede ko ba siyang maging girlfriend. Sinagot naman nya ako nung araw na yun. </p>
 <img src="sagot2.jpg" alt="Image">
+<h5><time datetime="2018-05-13">May 13, 2018</time></h5>
+<p>Kuha naman ito sa bahay ng mama mo noong ika-labing tatlo ng Mayo, dalawang libo't labing dalawa.</p>
+<img src="may1318.jpg" alt="Image">
 <a href="Page3.html">SUSUNOD NA PAHINA</a>
+
 </body>
 </html>
