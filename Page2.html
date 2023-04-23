@@ -50,7 +50,7 @@ img { display: block;
 <img src="sagot2.jpg" alt="Image">
 <hr class="custom-hr">
 <h5><time datetime="2018-05-13">May 13, 2018</time></h5>
-<p>Kuha naman ito sa bahay ng mama mo noong ika-labing tatlo ng Mayo, dalawang libo't labing dalawa.</p>
+<p>Kuha naman ito sa bahay ng mama mo noong ika-labing tatlo ng Mayo, dalawang libo't labing walo.</p>
 <img src="may1318.jpg" alt="Image">
 <a href="Page3.html">SUSUNOD NA PAHINA</a>
 
