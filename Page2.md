@@ -52,7 +52,7 @@ img { display: block;
 <h5><time datetime="2018-05-13">May 13, 2018</time></h5>
 <p>Kuha naman ito sa bahay ng mama mo noong ika-labing tatlo ng Mayo, dalawang libo't labing walo.</p>
 <img src="may1318.jpg" alt="Image">
-<a href="Page3.html">SUSUNOD NA PAHINA</a>
+<a href="Page2.html">SUSUNOD NA PAHINA</a> <a href="Page3.html">3</a> <a href="Page4.html">4</a> <a href="Page5.html">5</a> <a href="Page6.html">6</a> <a href="Page7.html">7</a> <a href="Page8.html">8</a> <a href="Page9.html">9</a> <a href="Page10.html">10</a> <a href="Lastpage.html">HULING PAHINA</a>
 
 </body>
 </html>
