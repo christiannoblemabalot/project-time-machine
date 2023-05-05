@@ -6,8 +6,8 @@ body { background-color: black;
         font-family: san-serif;
              margin: 100px;
               color: white; 
-          font-size: 30px
-          border: 20px white; }
+          font-size: 30px;
+          border: 20px solid white; }
 h1 { text-align: center;}
 video { display: block;
         margin: 10px auto;
