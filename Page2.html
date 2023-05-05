@@ -11,11 +11,11 @@ body { background-color: black;
 h1 { text-align: center;}
 video { display: block;
         margin: 10px auto;
-         width: 800px;
+         width: 700px;
          height: auto;}
 img { display: block;
        margin: 20px;
-         width: 800px;
+         width: 700px;
          height: auto;}
  .custom-hr { border: none;
               height: 20px;
