@@ -25,6 +25,22 @@ img {     text-align: none;
               height: 20px;
               background-color: white;
               margin: 20px 0;}
+.video-container { position: relative;
+                        width: 800px;
+                        height: 0;
+                      padding-bottom: 75%; }
+.video-container img { width: 90%;
+                        height: auto;
+                        cursor: pointer; }
+.video-container iframe { position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%; }
+<script>
+function playVideo() {document.getElementById('video-thumbnail').style.display = 'none';
+			document.getElementById('video-iframe').style.display = 'block';
+			document.getElementById('video-iframe').src = 'https://youtu.be/Ywii0v3fCC0'; }
 </style>
 </head>
 <body>
@@ -179,12 +195,11 @@ img {     text-align: none;
 <img src="baby33.jpg" alt="Image">
 
 <br>
-<hr class="custom-hr">
-<h2><time datetime="2023-01-09">January 9, 2023</time></h2>
-<a href="https://youtu.be/Ywii0v3fCC0" target="_blank"><img src="ptm2.jpg" alt="Image"></a>
-<br>
 
-
+<div class="video-container">
+		<img id="video-thumbnail" src="ptm2.jpg" alt="Video Thumbnail" onclick="playVideo()">
+		<iframe id="video-iframe" width="800" height="auto" src="" frameborder="0" allowfullscreen                      style="display: none;"></iframe>
+</div>
 
 <br> 
 
