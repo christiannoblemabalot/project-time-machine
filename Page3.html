@@ -23,12 +23,39 @@ img {     text-align: none;
               height: 20px;
               background-color: white;
               margin: 20px 0;}
+.video-container { position: relative;
+                        width: 700px;
+                        height: 0;
+                      padding-bottom: 30%; }
+.video-container img { width: 90%;
+                        height: auto;
+                        cursor: pointer; }
+.video-container iframe { position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%; }
 </style>
+<script> 
+function playVideo(videoId) { var thumbnail = document.getElementById(videoId + '-thumbnail');
+			      var iframe = document.getElementById(videoId + '-iframe');
+			      thumbnail.style.display = 'none';
+			      iframe.style.display = 'block';
+			     iframe.src = 'https://www.youtube.com/embed/' + videoId; }
+</script>
+
 </head>
 <body>
 <h1><time datetime="2018-05-20">May 20, 2018</time></h1>
 <p> Lunes ng umaga naisipan naming pumunta sa Metrotown Mall para kumain at kumanta. </p>
 <img src="datemetro.jpg" alt="Image">
+<div class="video-container">
+		<img id="video-thumbnail" src="videoke.jpg" alt="Video Thumbnail" onclick="playVideo()">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/F9BfRZ4TxRo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<br>
+              <img id="video-thumbnail" src="videoke1.jpg" alt="Video Thumbnail" onclick="playVideo()">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/gJ1080PYS9s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 <a href="https://youtu.be/gJ1080PYS9s" target="_blank"><img src="videoke.jpg" alt="Image"></a>
 
