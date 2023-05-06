@@ -4,24 +4,25 @@
 <style>
 body { background-color: black;
         font-family: san-serif;
-             margin: 100px;
+             margin: 50px;
               color: white; 
-          font-size: 30px;
-          border: 20px solid white; }
-h1 { text-align: center;}
+          font-size: 30px; 
+           border: 20px solid white; }
 video { display: block;
         margin: 10px auto;
-         width: 700px;
+       max-width: 90%
+         width: 800px;
          height: auto;}
-img { display: block;
-       margin: 20px;
-         width: 700px;
-         height: auto;}
- .custom-hr { border: none;
+
+img {     text-align: none;
+          margin: 20px 20px;
+             width: 500px;
+          max-width: 90%;
+        height: auto; }
+.custom-hr { border: none;
               height: 20px;
               background-color: white;
               margin: 20px 0;}
-                    
 </style>
 </head>
 <body>
