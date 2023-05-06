@@ -5,23 +5,44 @@
 <style>
 body { background-color: black;
         font-family: san-serif;
-             margin: 100px;
+             margin: 50px;
               color: white; 
-          font-size: 30px;
+          font-size: 30px; 
            border: 20px solid white; }
 video { display: block;
         margin: 10px auto;
-         width: 700px;
+       max-width: 90%
+         width: 800px;
          height: auto;}
-img  { text-align: none;
-       margin: 20px;
-         width: 500px;
-         height: auto;}
+
+img {     text-align: none;
+          margin: 20px 20px;
+             width: 500px;
+          max-width: 90%;
+        height: auto; }
 .custom-hr { border: none;
               height: 20px;
               background-color: white;
               margin: 20px 0;}
+.video-container { position: relative;
+                        width: 700px;
+                        height: 0;
+                      padding-bottom: 30%; }
+.video-container img { width: 90%;
+                        height: auto;
+                        cursor: pointer; }
+.video-container iframe { position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%; }
 </style>
+<script>
+function playVideo() { document.getElementById('video-thumbnail').style.display = 'none';
+		       document.getElementById('video-iframe').style.display = 'block';
+		       document.getElementById('video-iframe').src = 'https://youtu.be/vae8z8Ek7Ao'; }
+</script>
+
 </head>
 <body>
 <h1><time datetime="2020-12-22">December 22, 2020</time></h1>
@@ -29,8 +50,13 @@ img  { text-align: none;
 <img src="binyag1.jpg" alt="Image">
 <img src="binyag2.jpg" alt="Image">
 <img src="cake.jpg" alt="Image">
-<a href="https://youtu.be/vae8z8Ek7Ao" target="_blank"><img src="binyag4.jpg" alt="Image"></a>
+<div class="video-container">
+		<img id="video-thumbnail" src="binyag4.jpg" alt="Video Thumbnail" onclick="playVideo()">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/vae8z8Ek7Ao" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
 <br>
+
 <hr class="custom-hr">
 
 <h2><time datetime="2021-01-09">January 9, 2021</time></h2>
