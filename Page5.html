@@ -23,6 +23,23 @@ img {     text-align: none;
               height: 20px;
               background-color: white;
               margin: 20px 0;}
+.video-container { position: relative;
+                        width: 700px;
+                        height: 0;
+                      padding-bottom: 30%; }
+.video-container video { position: absolute;
+                        top: 0;
+                         left: 0;
+                         width: 100%;
+                        height: 100%;
+.video-container img { width: 90%;
+                        height: auto;
+                        cursor: pointer; }
+.video-container iframe { position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%; }
 </style>
 </head>
 <body>
@@ -90,8 +107,9 @@ img {     text-align: none;
 
 <h2><time datetime="2019-11-04">November 04, 2019</time></h2>
 <p>Pinapunta ako ng tita My-my mo sa bahay ng lolo daddy mo para daw sa gender reveal. Wala akong idea kung ano yung gender reveal pero pumunta naman ako. Sorpresa pala yun ni tita mo My-my para sa lola mommy mo. May sakit ang lola mommy mo pero nakita ko ang ngiti sa mukha niya nung mga sandaling yun. </p>
-
+<div class="video-container">
 <video src="genderreveal.mp4" controls> Your browser does not support the video tag.</video>
+</div>
 
 
 
