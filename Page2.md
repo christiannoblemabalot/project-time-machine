@@ -26,7 +26,7 @@ img {     text-align: none;
 .video-container { position: relative;
                         width: 700px;
                         height: 0;
-                      padding-bottom: 56.25%; }
+                      padding-bottom: 30%; }
 .video-container video { position: absolute;
                         top: 0;
                          left: 0;
@@ -46,7 +46,9 @@ img {     text-align: none;
 <h1>ANG SIMULA</h1>
 <h2>February 2018</h2>
 <p>Nagsimula ang kuwentong ito noong una kong makita ang mama mo. Una ko siyang nakita sa MSR Dialysis Center kung saan nagda-dialysis ang lola mommy mo. Dalawang beses sa isang linggong nagda-dialysis ang lola mommy mo at naka schedule siyang mag dialysis sa araw na iyon. Hindi ko matandaan yung eksaktong araw pero Pebrero iyon ng taong dalawang libo at labing walo. Ako ang nakatokang magbantay sa lola mommy mo nung araw na iyon. Nakita ko ang mama mo nung papasok na kami sa MSR.</p> 
+<div class="video-container">
 <video src="first_meet.mp4" controls> Your browser does not support the video tag.</video>
+</div>
 <p> Pagkatapos nun nagpakilala sa kanya ang lola mommy mo. Sa katunayan niyan ang lola mommy ang gumawa ng unang hakbang para makuha ang mesenger name ng mama mo. Tuwang-tuwa naman ako dahil gustung-gusto ko ang mama mo. Naging magka-chat kami ng mama mo. Lagi akong nagpupunta sa MSR kahit hindi pa naka-schedule magdialysis ang lola mommy mo. Hinihintay ko ang mama mo na lumabas galing sa trabaho para ihatid o kaya naman minsan kumakain muna kami bago sya umuwi.</p>
 <br>
 <hr class="custom-hr">
@@ -75,6 +77,7 @@ img {     text-align: none;
 <a href="Page5.html">5</a> <a href="Page6.html">6</a> 
 <a href="Page7.html">7</a> <a href="Page8.html">8</a> 
 <a href="Page9.html">9</a> <a href="Page10.html">10</a> 
+<br>
 <a href="Lastpage.html">HULING PAHINA</a>
 
 </body>
