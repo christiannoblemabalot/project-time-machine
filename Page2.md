@@ -14,7 +14,7 @@ video { display: block;
          width: 800px;
          height: auto;}
 
-img {     text-align: none;
+img {   text-align: none;
           margin: 20px 20px;
              width: 500px;
           max-width: 90%;
