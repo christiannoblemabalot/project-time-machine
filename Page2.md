@@ -25,7 +25,7 @@ img {     text-align: none;
               margin: 20px 0;}
 .video-container { position: relative;
                         width: 700px;
-                        height: 0;
+                        height: 500;
                       padding-bottom: 30%; }
 .video-container video { position: absolute;
                         top: 0;
