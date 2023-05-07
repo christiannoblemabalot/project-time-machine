@@ -42,12 +42,20 @@ img {     text-align: none;
                         width: 100%;
                         height: 100%; }
 </style>
+<script> 
+function playVideo(videoId) { var thumbnail = document.getElementById(videoId + '-thumbnail');
+			      var iframe = document.getElementById(videoId + '-iframe');
+			      thumbnail.style.display = 'none';
+			      iframe.style.display = 'block';
+			     iframe.src = 'https://www.youtube.com/embed/' + videoId; }
+</script>
 </head>
 <body>
 <h1><time datetime="2018-10-27">October 27, 2018</time></h1>
 <p> Ito yung araw ng kasal namin ng mama mo anak. Ang ganda ng mama mo diyan, pakiramdam ko ako na ang pinaka masuwerteng lalaki sa mundo. Napakasaya ko nung araw na yan.  </p>
-
-<a href="https://youtu.be/PKg7v7RakTY" target="_blank"><img src="clingjoywed.jpg" alt="Image"></a>
+<div class="video-container">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/PKg7v7RakTY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 <img src="wed.jpg" alt="Image">
 <img src="wed2.jpg" alt="Image">
