@@ -24,6 +24,12 @@ img {     text-align: none;
               height: 20px;
               background-color: white;
               margin: 20px 0;}
+#page-container { width: 100%;
+                   max-width: 800px; 
+                    margin: 0 auto;
+                    padding: 20px;
+                   box-sizing: border-box; 
+                   border: 1px solid #000; }
 .video-container { position: relative;
                         width: 700px;
                         height: 500;
@@ -53,8 +59,10 @@ function playVideo(videoId) { var thumbnail = document.getElementById(videoId + 
 <body>
 <h1><time datetime="2018-10-27">October 27, 2018</time></h1>
 <p> Ito yung araw ng kasal namin ng mama mo anak. Ang ganda ng mama mo diyan, pakiramdam ko ako na ang pinaka masuwerteng lalaki sa mundo. Napakasaya ko nung araw na yan.  </p>
+<div id="page-container">
 <div class="video-container">
                   <iframe width="800" height="500" src="https://www.youtube.com/embed/PKg7v7RakTY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 </div>
 <br>
 
