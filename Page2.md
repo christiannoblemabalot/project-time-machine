@@ -14,7 +14,7 @@ video { display: block;
          width: 800px;
          height: auto;}
 
-img {   text-align: none;
+img {     text-align: none;
           margin: 20px 20px;
              width: 500px;
           max-width: 90%;
@@ -23,6 +23,23 @@ img {   text-align: none;
               height: 20px;
               background-color: white;
               margin: 20px 0;}
+.video-container { position: relative;
+                        width: 700px;
+                        height: 0;
+                      padding-bottom: 56.25%; }
+.video-container video { position: absolute;
+                        top: 0;
+                         left: 0;
+                         width: 100%;
+                        height: 100%;
+.video-container img { width: 90%;
+                        height: auto;
+                        cursor: pointer; }
+.video-container iframe { position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%; }
 </style>
 </head>
 <body>
